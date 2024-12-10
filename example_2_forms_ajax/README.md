@@ -1,4 +1,4 @@
-# example_1_no_js - Веб без JavaScript
+# example_2_forms_ajax - Формы/AJAX
 
 В данном примере используется Django в качестве Backend. 
 Для клиента это - MPA, отрисовка шаблонов происходит средствами Django. 
