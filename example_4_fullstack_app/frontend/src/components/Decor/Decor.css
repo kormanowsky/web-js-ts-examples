@@ -1,0 +1,32 @@
+@keyframes decor_animation {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(calc(100vw - 100%), 0px);
+    }
+
+    50% {
+        transform: translate(calc(100vw - 100%), calc(100vh - 100%));
+    }
+
+    75% {
+        transform: translate(0px, calc(100vh - 100%));
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+.decor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation-name: decor_animation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
